@@ -14,7 +14,6 @@ public class DragAndDropTest extends BaseTest {
     $("#column-a").dragAndDropTo($("#column-b"));
     $("#column-a").shouldHave(exactText("B"));
     $("#column-b").shouldHave(exactText("A"));
-    $("");
   }
 
 }
